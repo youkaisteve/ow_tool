@@ -1,0 +1,30 @@
+{
+  "name": "ow_tool",
+  "version": "1.0.0",
+  "description": "ow excel process tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "mocha": "^5.2.0",
+    "mysql2": "^1.6.4",
+    "sequelize": "^4.42.0",
+    "tedious": "^4.1.3",
+    "xlsx": "^0.14.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "eslint-config-egg": "^5.1.0",
+    "power-assert": "^1.6.1"
+  },
+  "keywords": [
+    "tool",
+    "ow",
+    "excel",
+    "mysql",
+    "selserver"
+  ],
+  "author": "yk",
+  "license": "ISC"
+}
